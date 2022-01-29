@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Smart Home App | theuicode.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="flex h-screen justify-center items-center">
+    <div class="relative container app-bg-gray-1 shadow-2xl overflow-hidden">
+        <div>
+            <svg width="320" height="700">
+                <path fill="url(#gradient)" opacity="1" stroke-linecap="round" stroke-linejoin="round"
+                    d="M0,0 L0,250 Q 30,525 160,650 Q 290,525 320,250 L320,0 L0,0" />
+                <LinearGradient id="gradient" gradientTransform="rotate(90)">
+                    <stop offset="0%" stop-color="#F6F8FC" />
+                    <stop offset="100%" stop-color="#C8D1EC" />
+                </LinearGradient>
+            </svg>
+        </div>
+        <div class="flex flex-col items-center absolute top-0 w-full">
+            <div class="flex flex-row w-full pt-10 justify-center">
+                <div class="w-1 h-1 app-bg-black rounded mx-1"></div>
+                <div class="w-1 h-1 app-bg-gray-2 rounded mx-1"></div>
+                <div class="w-1 h-1 app-bg-gray-2 rounded mx-1"></div>
+                <div class="w-1 h-1 app-bg-gray-2 rounded mx-1"></div>
+            </div>
+            <span class="text-xl font-bold tracking-widest mt-2">MORNING</span>
+            <span class="app-font-sm tracking-widest app-purple">PRESETS</span>
+            <div class="flex flex-row w-full justify-between px-24 mt-10">
+                <svg width="22" height="22">
+                    <path class="app-stroke-purple" stroke-width="1" fill="none" opacity="1" stroke-linecap="round"
+                        stroke-linejoin="round" d="M21,1 Q -1,0 1,21" />
+                </svg>
+                <svg width="22" height="22" style="transform: rotate(90deg)">
+                    <path class="app-stroke-purple" stroke-width="1" fill="none" opacity="1" stroke-linecap="round"
+                        stroke-linejoin="round" d="M21,1 Q -1,0 1,21" />
+                </svg>
+            </div>
+            <span class="app-font-sm tracking-widest app-purple mt-4">BLINDS</span>
+            <div class="flex flex-row w-full justify-between items-center px-8 py-4">
+                <svg width="22" height="42">
+                    <path class="app-stroke-purple" stroke-width="1" fill="none" opacity="1" stroke-linecap="round"
+                        stroke-linejoin="round" d="M11,0 L6,12 Q 1,21 6,30 L11,41" />
+                </svg>
+                <div class="flex flex-col items-center app-bg-gray-3 px-12 py-6 my-5 rounded-3xl app-shadow">
+                    <span class="app-font-sm tracking-widest app-purple mb-1">PLAYLIST</span>
+                    <span class="app-font-md tracking-widest app-color-black">DEEP HOUSE</span>
+                </div>
+                <svg width="22" height="42" style="transform: rotate(180deg);">
+                    <path class="app-stroke-purple" stroke-width="1" fill="none" opacity="1" stroke-linecap="round"
+                        stroke-linejoin="round" d="M11,0 L6,12 Q 1,21 6,30 L11,41" />
+                </svg>
+            </div>
+            <span class="app-font-sm tracking-widest app-purple">COFFEE</span>
+            <div class="flex flex-row w-full justify-between px-24 mt-10 items-end">
+                <svg width="22" height="22" style="transform: rotate(-90deg)">
+                    <path class="app-stroke-purple" stroke-width="1" fill="none" opacity="1" stroke-linecap="round"
+                        stroke-linejoin="round" d="M21,1 Q -1,0 1,21" />
+                </svg>
+                <span class="app-font-sm tracking-widest app-purple">+3</span>
+                <svg width="22" height="22" style="transform: rotate(180deg)">
+                    <path class="app-stroke-purple" stroke-width="1" fill="none" opacity="1" stroke-linecap="round"
+                        stroke-linejoin="round" d="M21,1 Q -1,0 1,21" />
+                </svg>
+            </div>
+            <div class="relative">
+                <svg width="200" height="200" class="absolute bottom-10">
+                    <linearGradient id="gradient-2" gradientTransform="rotate(90)">
+                        <stop offset="0%" stop-color="#FCFBFE" />
+                        <stop offset="100%" stop-color="#EFF0F9" />
+
+                    </linearGradient>
+                    <path fill="url(#gradient-2)" d="M100,200 Q 50,150 50,100 Q 100,75 150,100 Q 150,150 100,200" />
+                    <circle cx="80" cy="120" class="dot" />
+                    <circle cx="120" cy="120" class="dot" />
+                    <circle cx="100" cy="150" class="dot" />
+                </svg>
+                <svg width="200" height="200">
+                    <linearGradient id="gradient-3" gradientTransform="rotate(90)">
+                        <stop offset="0%" stop-color="#CFD7EE" />
+                        <stop offset="50%" stop-color="#CFD7EE" />
+                        <stop offset="100%" stop-color="#EAF0FA" />
+
+                    </linearGradient>
+                    <path stroke="url(#gradient-3)" fill="none" d="M50,100 Q 50,150 100,190 Q 150,150 150,100" />
+                </svg>
+            </div>
+        </div>
+        <div class="flex absolute bottom-16 justify-between w-full px-10">
+            <i class="fa-solid fa-chart-column app-color-black icon"></i>
+            <i class="fa-solid fa-gear app-color-black icon"></i>
+        </div>
+    </div>
+</body>
+
+</html>
