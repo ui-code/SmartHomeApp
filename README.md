@@ -6,6 +6,9 @@ Learn how to convert a UI Design of a Smart Home App to HTML5 and CSS3 using Tai
 For video guide of this tutorial:
 https://youtu.be/XaBeKpamopE
 
+Playlist of this series:
+https://www.youtube.com/playlist?list=PL1deGqcRrtmIrjzeVE8r7bC4ZAIACRbA1
+
 For other videos from this channel:
 https://youtube.com/UICode/videos
 
